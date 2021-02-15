@@ -343,10 +343,10 @@ ul {
 .generic-anchor {
     color: #8DB9ED;
 }
-&:visited {
+.generic-anchor:visited {
     color: #8DB9ED;
 }
-&:hover {
+.generic-anchor:hover {
     color:  #ccc;
 }
 
