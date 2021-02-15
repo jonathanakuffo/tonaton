@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Title -->
+    <title>Tonaton</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/jpeg" href="images/apt3.jpeg">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/96ccaaca81.js" crossorigin="anonymous"></script>
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Js -->
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+
+    <!-- header begins -->
+    <header class="main-header">
+
+
+        <div class="header-container">
+            <h1>Tonaton</h1>
+            <nav>
+                <a href="#"><i class="fas fa-comments"></i>Chat</a>
+                <a href="#"><i class="fas fa-sign-in-alt"></i>Login</a>
+                <button>POST YOUR AD</button>
+            </nav>
+            
+            <!-- Menu -->
+            <div class="menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <!-- End menu -->
+        </div>
+
+        <div class="header-container">
+            <input type="text" placeholder="what are you looking for?">
+            <button class="search" type="button">Search</button>
+        </div>
+
+    </header>
+    <!-- header ends -->
+
+    <section>
+
+        <!-- container begins -->
+        <div class="container">
+            <!-- Sidebar -->
+            <div class="sidebar">
+
+                <h3>All Categories</h3>
+
+                <a href="#">Electronics</a>
+                <a href="#">Home and Garden</a>
+                <a href="#">Properties</a>
+                <a href="#">Jobs Services</a>
+                <a href="#">Services</a>
+                <a href="#">Other</a>
+
+
+            </div>
+            <!-- End Sidebar -->
+
+            <!-- sub-container begins -->
+            <div class="sub-container">
+                <div class="carousel">
+
+                    <button class="carousel_button carousel_button--left is-hidden">
+                        <img src="images/left.svg" alt="">
+                    </button>
+    
+                    <!-- Carousel-track-container -->
+                    <div class="carousel_track-container">
+    
+                        <ul class="carousel_track">
+    
+                            <li class="carousel_slide current-slide">
+                                <img class="carousel_image" src="images/cropped.jpg" alt="">
+                            </li>
+    
+                            <li class="carousel_slide">
+                                <img class="carousel_image" src="images/cropped (1).jpg" alt="">
+                            </li>
+    
+                            <li class="carousel_slide">
+                                <img class="carousel_image" src="images/cropped (2).jpg" alt="">
+                            </li>
+    
+                            <li class="carousel_slide">
+                                <img class="carousel_image" src="images/cropped (3).jpg" alt="">
+                            </li>
+    
+                            <li class="carousel_slide">
+                                <img class="carousel_image" src="images/cropped (4).jpg" alt="">
+                            </li>
+    
+                        </ul>
+    
+                    </div>
+                    <!-- End Carousel-track-container -->
+    
+    
+                    <button class="carousel_button carousel_button--right">
+                        <img src="images/right.svg" alt="">
+                    </button>
+    
+                    <!-- Carousel-nav -->
+                    <div class="carousel_nav">
+                        <button class="carousel_indicator current-slide"></button>
+                        <button class="carousel_indicator"></button>
+                        <button class="carousel_indicator"></button>
+                        <button class="carousel_indicator"></button>
+                        <button class="carousel_indicator"></button>
+                    </div>
+                    <!-- End Carousel-nav -->
+    
+                </div>
+                <!-- End Carousel -->
+
+                <!-- container listings begins -->
+                <div id="container">
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box one"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">4 bedroom storey building for sale</span>
+                                <span class="size">Rooms are en-suite</span>
+                                <span class="description">Dansoman, Greater-Accra</span>
+                                <span class="price">GH₵ 250,000</span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box two"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">Fully furnished house for sale</span>
+                                <span class="size">Bed:4 Bath:6</span>
+                                <span class="description">Okponglo, Legon</span>
+                                <span class="price">GH₵ 700,000</span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box three"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">House with swimmig pool for sale</span>
+                                <span class="size">Bed:5 Bath:9</span>
+                                <span class="description">Bantama, Ashanti Region</span>
+                                <span class="price">GH₵ 699,000</span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box four"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">Affordable house for sale</span>
+                                <span class="size">Includes a 2-car garage</span>
+                                <span class="description">Cantoments, Accra</span>
+                                <span class="price">GH₵ 900,000</span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box five"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">Storey Building for sale</span>
+                                <span class="size">Bed:6 Bath:9</span>
+                                <span class="description">@ Haatso, Accra</span>
+                                <span class="price">GH₵ 1,250,000</span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box six"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">4 bedroom house for sale</span>
+                                <span class="size">1000sqft</span>
+                                <span class="description">Greater-Accra, Dansoman</span>
+                                <span class="price">GH₵ 250,000</span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box seven"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">Land for Sale at Kasoa</span>
+                                <span class="size">70/100sqft</span>
+                                <span class="description">Kasoa, Central Region</span>
+                                <span class="price">GH₵ 20,000</span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box eight"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">Quatar Plot For Lease</span>
+                                <span class="size">70sqft</span>
+                                <span class="description">Greater-Accra, Dansoman</span>
+                                <span class="price">GH₵ 25,000</span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box nine"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">Shops for lease</span>
+                                <span class="size">2000m²</span>
+                                <span class="description">Kaneshie, Greater-Accra</span>
+                                <span class="price">GH₵ 1,000</span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+                    <a href="#">
+                        <li class="listing">
+                            <div class="image-wrapper">
+                                <div class="box ten"></div>
+                            </div>
+                            <div class="info">
+                                <span class="heading">Office Space for rent</span>
+                                <span class="size">1300m²</span>
+                                <span class="description">Gbawe, Greater-Accra</span>
+                                <span class="price">GH₵ 2,000 negotiable </span>
+                            </div>
+        
+                        </li>
+                    </a>
+        
+        
+                </div>
+                <!-- container Listings ends -->
+
+            </div>
+            <!-- sub-container ends -->
+
+        </div>
+        <!-- container ends -->
+
+    </section>
+
+    <!-- footer begins -->
+    <footer class="flex-rw">
+        
+        <!-- footer-list-top begins -->
+        <ul class="footer-list-top">
+          <li><h4 class="footer-list-header">About Tonaton</h4></li>
+          <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
+          <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
+          <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">POLICIES</a></li>
+      
+          <li><a href='#' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
+      
+          <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">SITE MAP</a></li>
+        </ul>
+
+        <ul class="footer-list-top">
+          <li><h4 class="footer-list-header">More from Tonaton</h4></li>
+      
+      
+          <li><a href='#' class="generic-anchor footer-list-anchor">SELL FAST</a></li>
+          <li><a href='#' class="generic-anchor footer-list-anchor">DOORSTEP DELIVERY</a></li>
+          <li><a href='#' class="generic-anchor footer-list-anchor">BANNER ADS</a></li>
+          <li><a href='#' class="generic-anchor footer-list-anchor">NEW USER</a></li>
+          <li><a href='#' class="generic-anchor footer-list-anchor">STAFFING SOLUTIONS</a></li>
+        </ul>
+
+        <ul class="footer-list-top">
+          <li id='help'><h4 class="footer-list-header">Please Help Me</h4></li>
+          <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
+          <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+          <li id='find-a-store'><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
+          <li id='user-registration'><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">STAY SAFE</a></li>
+          <li id='order-tracking'><a href='#' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
+        </ul>
+        <!-- footer-list-top ends -->
+
+        <!-- footer-social-section begins -->
+        <section class="footer-social-section flex-rw">
+            <span class="footer-social-overlap footer-social-connect">
+            CONNECT <span class="footer-social-small">with</span> US
+            </span>
+            <span class="footer-social-overlap footer-social-icons-wrapper">
+            <a href="" class="generic-anchor" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+            <a href="#" class="generic-anchor" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="generic-anchor" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="generic-anchor" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="generic-anchor" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+            <a href="#" class="generic-anchor" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+            </span>
+        </section>
+        <!-- footer-social-section ends -->
+
+
+        <!-- footer-bottom-section begins -->
+        <section class="footer-bottom-section flex-rw">
+
+            <!-- footer-bottom-wrapper begins -->
+            <div class="footer-bottom-wrapper">   
+                <i class="fa fa-copyright" role="copyright">
+                </i> 2021 Tonaton in <address class="footer-address" role="company address">Ghana, Accra</address><span class="footer-bottom-rights"> - All Rights Reserved - 
+                </span>
+          </div>
+          <!-- footer-bottom-wrapper ends -->
+
+          <!-- footer-bottom-wrapper begins -->
+          <div class="footer-bottom-wrapper">
+             <a href="#" class="generic-anchor" rel="nofollow">Terms</a> | <a href="#" class="generic-anchor" rel="nofollow">Privacy</a>
+            </div>
+            <!-- footer-bottom-wrapper ends -->
+
+        </section>
+        <!-- footer-bottom-section ends -->
+
+    </footer>
+    <!-- footer ends -->
+    
+</body>
+
+</html>
